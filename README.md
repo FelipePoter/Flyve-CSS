@@ -1,36 +1,36 @@
 # Nuck CSS Framework
 
-![Nuck CSS Logo](link-para-logo.png)
+![Nuck CSS Logo](link-to-logo.png)
 
-O Nuck CSS é um framework CSS leve e flexível projetado para simplificar o desenvolvimento de interfaces web modernas. Com uma arquitetura modular e intuitiva, o Nuck CSS oferece uma base robusta para criar layouts responsivos e estilos consistentes.
+Nuck CSS is a lightweight and flexible CSS framework designed to simplify the development of modern web interfaces. With a modular and intuitive architecture, Nuck CSS provides a robust foundation for creating responsive layouts and consistent styles.
 
-## Uso
+## Usage
 
-Para começar a aproveitar o Nuck CSS em seu projeto, basta adicionar as classes aos elementos HTML. Exemplo:
+To start leveraging Nuck CSS in your project, simply add the classes to HTML elements. Example:
 
 ```html
 <div class="nc-container">
-  <h1 class="nc-title">Bem-vindo ao Nuck CSS</h1>
-  <p class="nc-text">Um framework CSS simples e poderoso.</p>
+  <h1 class="nc-title">Welcome to Nuck CSS</h1>
+  <p class="nc-text">A simple yet powerful CSS framework.</p>
 </div>
 ```
 
-O Nuck CSS fornece classes para grids, tipografia, cores e mais. Consulte a documentação completa para explorar todas as funcionalidades disponíveis.
+Nuck CSS provides classes for grids, typography, colors, and more. Refer to the full documentation to explore all available features.
 
-## Contribuição
+## Contribution
 
-Se deseja contribuir para o desenvolvimento do Nuck CSS, siga estas diretrizes:
+If you want to contribute to the development of Nuck CSS, follow these guidelines:
 
-1. Faça um fork do repositório.
-2. Crie uma branch para a sua funcionalidade (`git checkout -b feature/nova-funcionalidade`).
-3. Faça commits explicativos (`git commit -m 'Adiciona nova funcionalidade'`).
-4. Faça push para a sua branch (`git push origin feature/nova-funcionalidade`).
-5. Abra um Pull Request.
+1. Fork the repository.
+2. Create a branch for your feature (`git checkout -b feature/new-feature`).
+3. Make descriptive commits (`git commit -m 'Add new feature'`).
+4. Push to your branch (`git push origin feature/new-feature`).
+5. Open a Pull Request.
 
-## Documentação
+## Documentation
 
-A documentação detalhada do Nuck CSS está disponível [aqui](Adecidir).
+Detailed documentation for Nuck CSS is available [here](fazendo).
 
-## Licença
+## License
 
-Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more information.
