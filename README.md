@@ -2,11 +2,11 @@
 
 ![Nuck CSS Logo](link-para-logo.png)
 
-O Nuck CSS é um framework CSS leve e flexível projetado para simplificar o desenvolvimento de interfaces web modernas. Com uma arquitetura modular e intuitiva, o Nuck-CSS oferece uma base robusta para criar layouts responsivos e estilos consistentes.
+O Nuck CSS é um framework CSS leve e flexível projetado para simplificar o desenvolvimento de interfaces web modernas. Com uma arquitetura modular e intuitiva, o Nuck CSS oferece uma base robusta para criar layouts responsivos e estilos consistentes.
 
 ## Uso
 
-Para começar a aproveitar o Nuck-CSS em seu projeto, basta adicionar as classes aos elementos HTML. Exemplo:
+Para começar a aproveitar o Nuck CSS em seu projeto, basta adicionar as classes aos elementos HTML. Exemplo:
 
 ```html
 <div class="nc-container">
@@ -29,7 +29,7 @@ Se deseja contribuir para o desenvolvimento do Nuck CSS, siga estas diretrizes:
 
 ## Documentação
 
-A documentação detalhada do Nuck-CSS está disponível [aqui](Adecidir).
+A documentação detalhada do Nuck CSS está disponível [aqui](Adecidir).
 
 ## Licença
 
