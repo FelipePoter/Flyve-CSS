@@ -1,0 +1,23 @@
+/* Importa os estilos de reset */
+@import 'base/reset.css';
+
+/* Importa os estilos de tipografia */
+@import 'base/typography.css';
+
+/* Importa os estilos de layout (grid) */
+@import 'layout/grid.css';
+
+/* Importa os estilos de componentes */
+@import 'components/button.css';
+@import 'components/form.css';
+
+/* Importa os estilos de utilitários */
+@import 'utilities/spacing.css';
+@import 'utilities/text.css';
+
+/* Adicione estilos específicos do projeto abaixo desta linha */
+
+/* Exemplo de estilos específicos */
+body {
+  background-color: #f8f9fa;
+}

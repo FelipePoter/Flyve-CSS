@@ -1,0 +1,71 @@
+/* Alinha o texto */
+.text-left {
+    text-align: left;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  /* Transforma o texto */
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .text-lowercase {
+    text-transform: lowercase;
+  }
+  
+  .text-capitalize {
+    text-transform: capitalize;
+  }
+  
+  /* Define a cor do texto */
+  .text-primary {
+    color: #007bff;
+  }
+  
+  .text-secondary {
+    color: #6c757d;
+  }
+  
+  .text-success {
+    color: #28a745;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+  }
+  
+  .text-warning {
+    color: #ffc107;
+  }
+  
+  .text-info {
+    color: #17a2b8;
+  }
+  
+  .text-light {
+    color: #f8f9fa;
+  }
+  
+  .text-dark {
+    color: #343a40;
+  }
+  
+  /* Define o peso da fonte */
+  .font-weight-light {
+    font-weight: lighter;
+  }
+  
+  .font-weight-normal {
+    font-weight: normal;
+  }
+  
+  .font-weight-bold {
+    font-weight: bold;
+  }

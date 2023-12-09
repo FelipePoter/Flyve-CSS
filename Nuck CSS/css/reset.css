@@ -1,0 +1,64 @@
+/* Box sizing rules */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove default margin */
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p,
+  ul, ol, dl,
+  figure,
+  blockquote,
+  fieldset,
+  legend {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set core body defaults */
+  body {
+    line-height: 1;
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Remove list styles on ul, ol elements */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove anchor text decoration */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove blockquote border */
+  blockquote,
+  q {
+    quotes: none;
+  }
+  
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
+  
+  /* Reset some styles for better typography */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Avoid the `img` border when inside `a` */
+  img {
+    border-style: none;
+  }

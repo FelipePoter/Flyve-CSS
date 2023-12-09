@@ -1,0 +1,25 @@
+/* Estilo base para botões */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #007bff; /* Cor da borda do botão */
+    border-radius: 4px;
+    color: #fff; /* Cor do texto no botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+  }
+  
+  /* Estilo para botão ao passar o mouse */
+  .button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    border-color: #0056b3; /* Cor da borda ao passar o mouse */
+  }
+  
+  /* Estilo para botão ativo ou pressionado */
+  .button:active {
+    background-color: #004080; /* Cor de fundo quando pressionado */
+    border-color: #004080; /* Cor da borda quando pressionado */
+  }

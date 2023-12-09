@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentação do Nuck CSS</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #007bff;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    code {
+      background-color: #f8f9fa;
+      padding: 2px 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .col-6 {
+      flex: 1;
+      margin: 0 10px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      color: #fff;
+    }
+
+    .button-primary {
+      background-color: #007bff;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+    }
+
+    .form label {
+      margin-bottom: 5px;
+    }
+
+    .form input {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .mt-3 {
+      margin-top: 30px;
+    }
+
+    .mb-3 {
+      margin-bottom: 30px;
+    }
+
+    .text-uppercase {
+      text-transform: uppercase;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text-muted {
+      color: #6c757d;
+    }
+
+    .text-link {
+      color: #007bff;
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Documentação do Nuck CSS</h1>
+    <p>Um guia sobre como usar e personalizar o framework.</p>
+  </header>
+
+  <!-- Seção: Introdução -->
+  <section id="introducao">
+    <h2>Introdução</h2>
+    <p>Bem-vindo à documentação do Meu Framework CSS, um conjunto de estilos que facilitará o desenvolvimento web. Este guia irá ajudá-lo a entender como integrar e personalizar os estilos de acordo com as necessidades do seu projeto.</p>
+  </section>
+
+  <!-- Seção: Estrutura de Diretórios -->
+  <section id="estrutura-de-diretorios">
+    <h2>Estrutura de Diretórios</h2>
+    <p>O framework possui a seguinte estrutura de diretórios:</p>
+    <pre><code>/base
+  reset.css
+  typography.css
+/layout
+  grid.css
+/components
+  button.css
+  form.css
+/utilities
+  spacing.css
+  text.css
+main.css</code></pre>
+  </section>
+
+  <!-- Seção: Tipografia -->
+  <section id="tipografia">
+    <h2>Tipografia</h2>
+    <p>O módulo de tipografia inclui estilos básicos para textos, títulos e links.</p>
+
+    <!-- Exemplo prático: Utilizando classes de tipografia -->
+    <div class="text-center">
+      <h1>Meu Título Principal</h1>
+      <p class="text-muted">Um parágrafo com texto de destaque.</p>
+      <a href="#" class="text-link">Um link estilizado</a>
+    </div>
+  </section>
+
+  <!-- Seção: Sistema de Grid -->
+  <section id="sistema-de-grid">
+    <h2>Sistema de Grid</h2>
+    <p>O sistema de grid fornece uma estrutura flexível para criar layouts responsivos.</p>
+
+    <!-- Exemplo prático: Criando uma seção de duas colunas -->
+    <div class="container">
+      <div class="col-6">
+        <p>Conteúdo da Coluna 1</p>
+      </div>
+      <div class="col-6">
+        <p>Conteúdo da Coluna 2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção: Componentes - Botões -->
+  <section id="componentes-botoes">
+    <h2>Componentes: Botões</h2>
+    <p>O módulo de botões oferece estilos para criar botões reutilizáveis.</p>
+
+    <!-- Exemplo prático: Utilizando classes de botões -->
+    <button class="button">Botão Padrão</button>
+    <button class="button button-primary">Botão Primário</button>
+  </section>
+
+  <!-- Seção: Componentes - Formulários -->
+  <section id="componentes-formularios">
+    <h2>Componentes: Formulários</h2>
+    <p>O módulo de formulários fornece estilos para elementos de formulário.</p>
+
+    <!-- Exemplo prático: Estilizando um formulário -->
+    <form class="form">
+      <label for="username">Nome de Usuário:</label>
+      <input type="text" id="username" name="username" class="mb-2">
+
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" class="mb-2">
+
+      <input type="submit" value="Enviar" class="button button-primary">
+    </form>
+  </section>
+
+  <!-- Seção: Utilitários - Espaçamento -->
+  <section id="utilitarios-espacamento">
+    <h2>Utilitários: Espaçamento</h2>
+    <p>O módulo de espaçamento oferece classes para adicionar margens e preenchimentos a elementos.</p>
+
+    <!-- Exemplo prático: Utilizando classes de espaçamento -->
+    <div class="mt-3 mb-3">
+      <p>Este elemento tem margem superior e inferior.</p>
+    </div>
+  </section>
+
+  <!-- Seção: Utilitários - Texto -->
+  <section id="utilitarios-texto">
+    <h2>Utilitários: Texto</h2>
+    <p>O módulo de texto fornece classes para alinhamento, transformação e cor do texto.</p>
+
+    <!-- Exemplo prático: Utilizando classes de texto -->
+    <p class="text-uppercase">Este texto está em maiúsculas.</p>
+  </section>
+
+  <!-- Seção: Estilos Específicos do Projeto -->
+  <section id="estilos-especificos-do-projeto">
+    <h2>Estilos Específicos do Projeto</h2>
+    <p>Adicione estilos específicos do seu projeto no arquivo <code>main.css</code> abaixo da linha indicada.</p>
+
+    <!-- Exemplo prático: Adicionando um estilo específico -->
+    <style>
+      /* Estilos específicos do projeto */
+      body {
+        background-color: #f0f0f0;
+      }
+    </style>
+  </section>
+
+</body>
+</html>

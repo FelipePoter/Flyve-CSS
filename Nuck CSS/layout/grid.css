@@ -1,0 +1,69 @@
+/* Container do grid */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 0 20px; /* Adiciona algum espaço nas laterais do container (opcional) */
+    box-sizing: border-box; /* Garante que o padding não aumente a largura do container */
+  }
+  
+  /* Classes de colunas */
+  .col-1 {
+    flex: 0 0 8.33%; /* 1/12 */
+    max-width: 8.33%;
+  }
+  
+  .col-2 {
+    flex: 0 0 16.66%; /* 2/12 */
+    max-width: 16.66%;
+  }
+  
+  .col-3 {
+    flex: 0 0 25%; /* 3/12 */
+    max-width: 25%;
+  }
+  
+  .col-4 {
+    flex: 0 0 33.33%; /* 4/12 */
+    max-width: 33.33%;
+  }
+  
+  .col-6 {
+    flex: 0 0 50%; /* 6/12 */
+    max-width: 50%;
+  }
+  
+  .col-8 {
+    flex: 0 0 66.66%; /* 8/12 */
+    max-width: 66.66%;
+  }
+  
+  .col-12 {
+    flex: 0 0 100%; /* 12/12 */
+    max-width: 100%;
+  }
+  
+  /* Classes de offset (margem à esquerda) */
+  .offset-1 {
+    margin-left: 8.33%; /* 1/12 */
+  }
+  
+  .offset-2 {
+    margin-left: 16.66%; /* 2/12 */
+  }
+  
+  .offset-3 {
+    margin-left: 25%; /* 3/12 */
+  }
+  
+  .offset-4 {
+    margin-left: 33.33%; /* 4/12 */
+  }
+  
+  .offset-6 {
+    margin-left: 50%; /* 6/12 */
+  }
+  
+  .offset-8 {
+    margin-left: 66.66%; /* 8/12 */
+  }

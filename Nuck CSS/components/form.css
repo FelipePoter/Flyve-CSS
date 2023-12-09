@@ -1,0 +1,59 @@
+/* Estilo base para formulários */
+.form {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para rótulos de formulários */
+  .form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para campos de entrada de texto */
+  .form input[type="text"],
+  .form input[type="password"],
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para campos de seleção */
+  .form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para botões de envio */
+  .form input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #007bff; /* Cor da borda do botão de envio */
+    border-radius: 4px;
+    color: #fff; /* Cor do texto no botão de envio */
+    background-color: #007bff; /* Cor de fundo do botão de envio */
+  }
+  
+  /* Estilo para botão de envio ao passar o mouse */
+  .form input[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    border-color: #0056b3; /* Cor da borda ao passar o mouse */
+  }
+  
+  /* Estilo para botão de envio ativo ou pressionado */
+  .form input[type="submit"]:active {
+    background-color: #004080; /* Cor de fundo quando pressionado */
+    border-color: #004080; /* Cor da borda quando pressionado */
+  }
