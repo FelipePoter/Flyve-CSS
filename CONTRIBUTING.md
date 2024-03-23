@@ -1,10 +1,10 @@
-# Contributing to Nuck CSS Framework
+# Contributing to Flyve CSS Framework
 
-Thank you for considering contributing to Nuck CSS! Contributions are essential to improve and expand our framework. Please follow the guidelines below to facilitate the contribution process.
+Thank you for considering contributing to Flyve CSS! Contributions are essential to improve and expand our framework. Please follow the guidelines below to facilitate the contribution process.
 
 ## Reporting Issues
 
-If you encounter any problems or bugs, feel free to [open an issue](https://github.com/FelipePoter/Nuck-CSS/issues) in the repository. Make sure to include details about the problem and any relevant information that can help in resolution.
+If you encounter any problems or bugs, feel free to [open an issue](https://github.com/FelipePoter/Flyve-CSS/issues) in the repository. Make sure to include details about the problem and any relevant information that can help in resolution.
 
 ## Contributing Code
 
@@ -28,7 +28,7 @@ When adding new features or fixing bugs, it is crucial to include appropriate te
 
 ## Development Environment
 
-If you want to set up a local development environment, follow the instructions in the [README](https://github.com/FelipePoter/Nuck-CSS/blob/main/README.md) of the project.
+If you want to set up a local development environment, follow the instructions in the [README](https://github.com/FelipePoter/Flyve-CSS/blob/main/README.md) of the project.
 
 ## Code of Conduct
 
